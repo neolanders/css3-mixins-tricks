@@ -1,7 +1,7 @@
 # css3-mixins-tricks
 Tips &amp; Tricks, A bunch of tips and tricks I've learned and found very helpful.
 
-## Best Practice
+## Css3 Best Practice
 
 It's important when building a web page to avoid unecessary element, to remind this there is some tricky way using css3.
 In the sample below we will display a counter within a badge 
@@ -22,8 +22,6 @@ See sample below:
 ```
 
 **CSS:**
-
-
 
 #good practice
 
