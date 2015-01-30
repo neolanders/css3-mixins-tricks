@@ -12,10 +12,10 @@ See sample below:
 **HTML:**
 
 ```html
-<div class="dropdown" is-open="notification.isOpen"> 
-    <span></span>
-    <button data-count="{{notification.count}}" class="dropdown-toggle icon alert-btn"></button> 
-    <div class="dropdown-menu" ng-click="$event.stopPropagation();"> 
+<div class="dropdown"> 
+    <span class="badge">42</span>
+    <button class="dropdown-toggle icon alert-btn"></button> 
+    <div class="dropdown-menu"> 
         <!-- Drop down list content -->
     </div> 
 </div>
@@ -27,6 +27,14 @@ See sample below:
 
 **HTML:**
 
+```html
+<div class="dropdown"> 
+    <button data-count="2" class="dropdown-toggle icon alert-btn"></button> 
+    <div class="dropdown-menu"> 
+        <!-- Drop down list content -->
+    </div> 
+</div>
+```
 
 **CSS:**
 
