@@ -13,13 +13,11 @@ See sample below:
 ## HTML
 
 ```html
-<div class="userAlerts"> 
-    <div class="dropdown" is-open="notification.isOpen"> 
-        <span></span>
-        <button data-count="{{notification.count}}" class="dropdown-toggle icon alert-btn"></button> 
-        <div class="dropdown-menu" ng-click="$event.stopPropagation();"> 
-            <!-- Drop down list content -->
-        </div> 
+<div class="dropdown" is-open="notification.isOpen"> 
+    <span></span>
+    <button data-count="{{notification.count}}" class="dropdown-toggle icon alert-btn"></button> 
+    <div class="dropdown-menu" ng-click="$event.stopPropagation();"> 
+        <!-- Drop down list content -->
     </div> 
 </div>
 ```
@@ -29,4 +27,30 @@ See sample below:
 
 
 #good practice
+
+#HTML
+
+
+#CSS
+
+```css
+  .alert-btn:after { 
+    position: absolute; 
+    z-index: 1; 
+    top: 2px; 
+    right: 5px; 
+    content: attr(data-count); 
+    display: block; 
+    width: 13px; 
+    height: 13px; 
+    border: 1px solid #FFF; 
+    border-radius: 13px; 
+    background-color: #C30019; 
+    font-weight: bold; 
+    white-space: normal; 
+    color: #FFF; 
+    text-align: center; 
+    font-size: 9px; 
+  } 
+```
 
