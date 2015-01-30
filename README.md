@@ -1,7 +1,6 @@
 # css3-mixins-tricks
 Tips &amp; Tricks, A bunch of tips and tricks I've learned and found very helpful.
 
-
 ## Best Practice
 
 It's important when building a web page to avoid unecessary element, to remind this there is some tricky way using css3.
@@ -10,7 +9,7 @@ See sample below:
 
 #bad practice
 
-## HTML
+**HTML:**
 
 ```html
 <div class="dropdown" is-open="notification.isOpen"> 
@@ -22,16 +21,16 @@ See sample below:
 </div>
 ```
 
-## CSS
+**CSS:**
 
 
 
 #good practice
 
-#HTML
+**HTML:**
 
 
-#CSS
+**CSS:**
 
 ```css
   .alert-btn:after { 
