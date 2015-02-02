@@ -9,16 +9,18 @@ See sample below:
 
 #bad practice
 
+**Example:**
+
+![Alt text](/screenshots/sample.jpg?raw=true "Example")
+
 **HTML:**
 
 ```html
-<div class="dropdown"> 
-    <span class="badge">42</span>
-    <button class="dropdown-toggle icon alert-btn"></button> 
-    <div class="dropdown-menu"> 
-        <!-- Drop down list content -->
-    </div> 
-</div>
+<a href="#">Inbox <span class="badge">42</span></a>
+
+<button class="btn btn-primary" type="button">
+  Messages <span class="badge">4</span>
+</button>
 ```
 
 **CSS:**
@@ -28,18 +30,15 @@ See sample below:
 **HTML:**
 
 ```html
-<div class="dropdown"> 
-    <button data-count="2" class="dropdown-toggle icon alert-btn"></button> 
-    <div class="dropdown-menu"> 
-        <!-- Drop down list content -->
-    </div> 
-</div>
+<a href="#" data-count="4">Inbox <span class="badge">42</span></a>
+
+<button data-count="4" class="btn btn-primary" type="button"></button>
 ```
 
 **CSS:**
 
 ```css
-  .alert-btn:after { 
+  .btn:after { 
     position: absolute; 
     z-index: 1; 
     top: 2px; 
