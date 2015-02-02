@@ -4,7 +4,13 @@ Tips &amp; Tricks, A bunch of tips and tricks I've learned and found very helpfu
 ## Css3 Best Practice
 
 It's important when building a web page to avoid unecessary element, to remind this there is some tricky way using css3.
-In the sample below we will display a counter within a badge 
+In the sample below we will display a counter within a badge.
+
+-
+**Note:** 
+*The content property is used with the :before and :after pseudo-elements, to insert generated content.*
+*The attr() CSS function is used to retrieve the value of an attribute of the selected element and use it in the style sheet. It can be used on pseudo-elements too and, in this case, the value of the attribute on the pseudo-element's originated element is returned.The attr() function can be used with any CSS property.*
+
 See sample below:
 
 #bad practice
